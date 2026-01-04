@@ -1,20 +1,20 @@
 # awggui (amneziawg gui)
 a working gui for amneziawg on linux (not done)
 
-# requirements
+## requirements
 
 you need to install dependencies
 
-for arch linux: 
-
-1. sudo pacman -S python-pyqt6
-
-2. yay -S amneziawg-dkms amneziawg-tools
-
-# how to use
-
+### for arch linux: 
+```
+sudo pacman -S python-pyqt6
+yay -S amneziawg-dkms amneziawg-tools
+```
+## how to use
+```
+chmod +x ./awggui
 ./awggui
+```
+## known bugs
 
-# known bugs
-
-buggy icon switching in tray
+- buggy icon switching in tray
